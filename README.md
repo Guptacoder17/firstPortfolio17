@@ -1,2 +1,55 @@
 # firstPortfolio17
-This is my first portfolio website, it is about my skills, blogs and projects which we are did.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Gupta - web developer, programmer, Nature Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/gallary.html">Gallary</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+            <img class="ham" src="ham.jpeg" alt="" width="27px">
+            <img class="cross"  src="cross.png" alt="" width="23px">
+         </div>
+            <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Aman Gupta</div>
+                    <div class="about">Developer | Photographer | Traveller</div>
+                    <div class="moreabout">I am a developer.I love photography.<br>live in Kolkata and pretty much
+                        interested in travelling and learning a new technology.</div>
+                    <div class="buttons">
+                        <a href="/aman_autoCv.pdf" target="_blank">
+                            <button class="btn">Download CV</button></a>
+                        <a href="/contact.html"><button class="btn">Contact Me</button></a>
+                    </div>
+                </div>
+                <div class="devpic">
+                    <img src="dev02.png" alt="Aman Gupta">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
